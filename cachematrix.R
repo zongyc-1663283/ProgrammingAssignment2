@@ -2,7 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+# This function does the caching. The special "CacheMatrix"
+# can use this function to cache the result. Note that none computation
+# is not done in this function. It just keeps record of the result.
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
